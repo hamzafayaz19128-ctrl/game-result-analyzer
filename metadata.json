@@ -1,0 +1,6 @@
+{
+  "name": "Game Result Analyzer",
+  "description": "Offline statistical result recorder and Laplace-smoothed tendency analyzer for Coin, Mini Roulette, Wheel, and Dice with Jetpack Compose styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

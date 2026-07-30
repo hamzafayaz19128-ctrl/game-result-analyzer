@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Game Result Analyzer</title>
+  <defs>
+    <linearGradient id="background" x1="70" y1="52" x2="438" y2="462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="0.52" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="166" y1="328" x2="360" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#020617"/>
+  <rect x="48" y="48" width="416" height="416" rx="112" fill="url(#background)"/>
+  <circle cx="256" cy="256" r="142" fill="#0f172a" fill-opacity="0.58" stroke="#c4b5fd" stroke-opacity="0.42" stroke-width="8"/>
+  <path d="M166 326v-70M230 326V208M294 326v-94M358 326V166" fill="none" stroke="url(#chart)" stroke-linecap="round" stroke-width="30"/>
+  <path d="m160 204 68-42 62 26 72-66" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"/>
+  <circle cx="160" cy="204" r="13" fill="#ffffff"/>
+  <circle cx="228" cy="162" r="13" fill="#ffffff"/>
+  <circle cx="290" cy="188" r="13" fill="#ffffff"/>
+  <circle cx="362" cy="122" r="13" fill="#ffffff"/>
+  <text x="256" y="414" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="72" font-weight="800" text-anchor="middle" letter-spacing="4">GA</text>
+</svg>
